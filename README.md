@@ -13,3 +13,7 @@ void primes(unsigned long long int n)
     );
 }
 ```
+
+the current C file has `primes(200)` hardcoded, and will print all prime numbers up to 200.
+
+to compile it use `gcc sleeve.c -o sleeve -lm`
